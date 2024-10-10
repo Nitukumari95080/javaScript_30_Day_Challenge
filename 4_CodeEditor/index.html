@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeEditor</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div class="code-editor-container">
+        <div class="code-editor html-editor">
+            <div class="head-editor">
+                <div class="left-head">
+                    <img src="./img/html (1).png" alt="" width="25px">
+                    <span>HTML</span>
+                </div>
+                <div class="right-head">
+                    <img src="./copy.svg" alt="" class="copy copy1">
+                </div>
+            </div>
+        <textarea name="" class="html-input" spellcheck="false"></textarea>
+        </div>
+        <div class="code-editor css-editor">
+            <div class="head-editor">
+                <div class="left-head">
+                    <img src="./img/css.png" alt="" width="25px">
+                    <span>CSS</span>
+                </div>
+                <div class="right-head">
+                    <img src="./copy.svg" alt="" class="copy copy2">
+                </div>
+            </div>
+            <textarea name="" class="css-input" spellcheck="false"></textarea>
+        </div>
+        <div class="code-editor js-editor">
+            <div class="head-editor">
+                <div class="left-head">
+                    <img src="./img/java-script.png" alt="" width="25px">
+                    <span>JS</span>
+                </div>
+                <div class="right-head">
+                    <img src="./copy.svg" alt=""class="copy copy3">
+                </div>
+            </div>
+            <textarea name="" class="js-input" spellcheck="false"></textarea>
+        </div>
+    </div>
+
+    <div class="output-container">
+        <div class="output-head">
+            <span>OUTPUT</span>
+            <img src="./copy.svg" id="save" alt="">
+            <img src="./full.svg" alt="" id="full">
+        </div>
+        <iframe id="output">
+
+        </iframe>
+    </div>
+    <script src="./Script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.search-area {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./img/bg.avif); 
+    background-size: cover; 
+    background-position: center;
+    position: relative;
+}
+
+.black {
+    position: absolute;
+    background-color:rgba(0, 139, 139, 0.503);
+    width: 100%;
+    height: 100%;
+}
