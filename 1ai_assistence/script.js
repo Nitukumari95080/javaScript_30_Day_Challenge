@@ -52,7 +52,7 @@ function takeCommand(message) {
     if (message.includes("hello") || message.includes("hey")) {
         speak(`Hello Sir, what can I help you with?`);
     } else if (message.includes("who are you")) {
-        speak(`I am a virtual assistant, created by TopperGirl.`);
+        speak(`I am a AG3, created by TopperGirl.`);
     } else if (message.includes("open youtube")) {
         speak(`Opening YouTube..`);
         window.open(`https://www.youtube.com`, "_blank");
