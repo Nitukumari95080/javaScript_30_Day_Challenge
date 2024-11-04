@@ -1,17 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>chatGpt</title>
     <!-- add css file -->
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-
-    
-
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>I am Virtual Math Teacher</h1>
+    <div class="upload">
+      <div class="inner-upolad-img">
+        <input type="file" hidden>
+        <img src="" alt="" id="img">
+        <img src="./img/plus.svg" alt="plus" id="icon">
+        <span>
+            Upload Image
+        </span>
+      </div>
+      <button>Answer</button>
+    </div>
+    <!-- <img src="./img/loading.svg" alt="loading" id="loading" width="40px"> -->
+<div class="output">
+    <pre id="result"></pre>
+</div>
     <!-- add script file -->
-    <script src="./javaScript.js"> </script>
-</body>
+    <script src="./javaScript.js"></script>
+  </body>
 </html>
